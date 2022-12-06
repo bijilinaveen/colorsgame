@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Game
+    </title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        body{
+            background-color: lightpink;
+        }
+        hr{
+
+            border-style: none;
+            border-bottom: dotted;
+          
+        }
+        
+       
+        
+    </style>
+</head>
+<body>
+    <h1>color Game</h1>
+    <br>
+
+    
+      
+    <button class="green" onclick="makegreen()">green</button>
+    <hr>
+    <button  onclick="makeorange()">orange</button><br> <hr>
+    <button onclick="makelightblue()">lightblue</button><br><hr>
+    <button  onclick="makelightgreen()">lightgreen</button><br><hr>
+    <button  onclick="makeblue()">blue</button><br><hr>
+    <button onclick="makered()">red</button><br><hr>
+   
+
+    <script>
+        function makegreen(){
+            document.body.style.backgroundColor = "green ";
+        }
+        function makeorange(){
+            document.body.style.backgroundColor = " orange";
+        }
+        function makelightblue(){
+            document.body.style.backgroundColor ="lightblue";
+        }
+        function makelightgreen(){
+            document.body.style.backgroundColor ="lightgreen";
+        }
+        function makeblue(){
+            document.body.style.backgroundColor ="blue";
+        }
+        function makered(){
+            document.body.style.backgroundColor = "red";
+        }
+    </script>
+
+
+    
+</body>
+</html>
